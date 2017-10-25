@@ -1,13 +1,16 @@
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
 
 setup(
     name='project',
     version='0.1.0',
-    packages=find_packages(),
-    include_package_data=True,
     description='Project Description',
     author='Author',
+    author_email='author@email.com',
     license='MIT',
+    packages=find_packages(),
+    include_package_data=True,
     classifiers=[
         'Natural Language :: English',
         'License :: OSI Approved :: MIT License',
