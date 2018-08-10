@@ -6,7 +6,7 @@ Structure for new Python Projects
 * [Pipenv](https://github.com/pypa/pipenv) as packaging tool.
 * [Make](https://www.gnu.org/software/make/) as task runner.
 * [pylint](https://github.com/PyCQA/pylint) as source code analyzer.
-* [pytest](https://github.com/pytest-dev/pytest) as testing ramework. 
+* [pytest](https://github.com/pytest-dev/pytest) as testing framework. 
 * [pytest-mock](https://github.com/pytest-dev/pytest-mock) - Thin-wrapper around the mock package for easier use with py.test
 * [isort](https://github.com/timothycrosley/isort) - A Python utility / library to sort imports. 
 
