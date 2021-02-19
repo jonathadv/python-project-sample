@@ -7,7 +7,8 @@ Structure for new Python Projects
 * [Make](https://www.gnu.org/software/make/) as task runner.
 * [pylint](https://github.com/PyCQA/pylint) as source code analyzer.
 * [pytest](https://github.com/pytest-dev/pytest) as testing framework. 
-* [pytest-mock](https://github.com/pytest-dev/pytest-mock) - Thin-wrapper around the mock package for easier use with py.test
+* [pytest-mock](https://github.com/pytest-dev/pytest-mock) - Thin-wrapper around the mock package for easier use with py.test.
+* [pytest-cov](https://github.com/pytest-dev/pytest-cov) - This plugin produces coverage reports. 
 * [isort](https://github.com/timothycrosley/isort) - A Python utility / library to sort imports. 
 
 
@@ -15,7 +16,7 @@ Structure for new Python Projects
 
 In order to `make` long commands short *(got the pun?)* this project comes up with a list of built-in make tasks:  
 
-It's good practice to read the `Makefile` and understand what each task does, and so it's possible to one improve the task for the one's better using.
+It's good a practice to read the `Makefile` and understand what each task does, and so it's possible to one improve the task for the one's better using.
 
 
 #### Task list:
