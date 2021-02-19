@@ -8,5 +8,7 @@ verify_ssl = true
 [dev-packages]
 pytest = "*"
 "pytest-mock" = "*"
+pytest-cov = "*"
 pylint = "*"
 isort = "*"
+black = "==20.8b1"
