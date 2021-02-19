@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='project',
-    version='0.1.0',
+    version='1.0.0',
     description='Project Description',
     author='Author',
     author_email='author@email.com',
@@ -21,9 +21,9 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython'
     ]
 )

@@ -1,4 +1,5 @@
-MODULE_NAME = module
+MODULE_NAME = my_module
+TEST_DIR = tests
 
 default: help
 
@@ -24,12 +25,12 @@ lint:
 
 # Run tests with pytest
 test:
-	pipenv run pytest -s --verbose ./tests
+	pipenv run pytest
 
 
 # Run tests with pytest and coverage
 test-cov:
-	pipenv run pytest -s --verbose --cov-report term-missing --cov=$(MODULE_NAME) ./tests
+	pipenv run pytest --cov-report term-missing --cov=$(MODULE_NAME)
 
 
 # Create wheel from source
@@ -47,7 +48,7 @@ isort:
 
 # Format with black
 format:
-	pipenv run black $(MODULE_NAME)
+	pipenv run black $(MODULE_NAME) $(TEST_DIR)
 
 
 # Upload dist content to test.pypi.org

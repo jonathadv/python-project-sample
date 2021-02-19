@@ -7,7 +7,7 @@ load-plugins=pylint.extensions.bad_builtin
 bad-functions=input,print
 
 # Good variable names which should always be accepted, separated by a comma
-good-names=pk,i,j,k,v,e,ex,Run,bu,tz
+good-names=pk,i,j,k,v,e,ex,x,y,Run,tz
 
 [DESIGN]
 

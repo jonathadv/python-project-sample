@@ -3,4 +3,4 @@ branch = True
 source = module
 
 [report]
-fail_under = 80
+fail_under = 95
