@@ -1,6 +1,5 @@
 [MASTER]
-ignore=migrations
-load-plugins=pylint.extensions.bad_builtin
+load-plugins=pylint.extensions.bad_builtin,pylint.extensions.mccabe
 
 [BASIC]
 # List of builtins function names that should not be used, separated by a comma
